@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+body{
+    
+    background: url(https://images.unsplash.com/photo-1509114397022-ed747cca3f65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    
+    background-size: 100%;
+    background-position: center;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  font-size: 18px;
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#heading1{
+
+    font-family:poppins;
+}
+
+
+li a:hover:not(.active) {
+  background-color:white;
+}
+
+
+.active {
+  background-color: white;
+}
+
+.testimonials{
+    margin: 50px auto;
+        }
+
+
+.testimonials h1{
+    text-align: center;
+    font-weight: bold;
+    color: orange;
+    padding-bottom: 60px;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 3px black,
+                 0px 18px 23px grey;
+    
+}
+
+.testimonials h1::after
+{
+    content: '';
+    background: #ff9800;
+    display:block;
+    height: 3px;
+    width: 470px;
+    margin: 20px auto 5px;
+    
+}
+
+.testimonials.row{
+  margin: 40px auto; 
+    }
+
+.profile{
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+     border-radius: 100px 0 100px 0;
+}
+
+.profile img{
+    
+    top: -60px;
+    position: absolute;
+    left: calc(50% - 60px);
+    border: 10px solid white;
+}
+
+.user{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.profile h3{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #ff9800;
+}
+
+span{
+    font-size: 12px;
+    color:#333;
+}
+
+blockqoute{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+blockqoute::before{
+    content: '\93';
+    font-size: 50px;
+    position: relative;
+    color: #ff9800;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px; 
+}
+
+blockqoute::after{
+    content: '\94';
+    font-size: 50px;
+    position: relative;
+    color: #ff9800;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+    
+}
+
+.profile:hover{
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: 0.5s;
+   
+}
+body{
+    font-family: balooo;
+    
+}
+
+
+.footer {
+   position:fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: lightpink;
+   color: white;
+   text-align: center;
+}
+ #appstoreicon{
+                
+                width:200px;
+                padding-top: 20px;
+            }
+
+ .downloadapp{
+                padding-top: 50px;
+                padding-bottom: 20px;
+                text-align: center;
+            }
+.col-md-7{
+    text-align: left;
+    
+}
+
+
+.site-footer{
+
+    background-color: #222;
+    color:#fff; 
+    margin-top: 30px;
+    padding-top: 30px;
+
+
+}
+.bottom-footer{
+    border-top:1px solid white;
+    margin-top: 10px;
+    padding-top: 10px;
+    color:aliceblue;
+    
+}
+.footer-nav{
+    
+    text-align: right;
+    list-style:none;
+    
+}
+
+.footer-nav li{
+    display:inline;
+  
+}
+.footer-nav li:not(:first-child):before{
+    content:'|';
+    padding:0px 10px;
+}
+.footer-nav a{
+    color:#b2b2b2;
+}
+.footer-nav a:hover{
+    color:white;
+    text-decoration: none;
+}
+
+
+
